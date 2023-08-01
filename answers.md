@@ -13,9 +13,10 @@ Firstly, structured design is a software development methodology that aims to en
 Cohesion is a measure of how closely elements within a module are related to each other. So, for Java it would be about how fields and methods are related within a class. 
 
 Similarly to the Single Responsibility Principle, which states that a class should only have one responsibility. The module following this principle is likely to have high cohesion.
+<img src="Screenshot 2023-07-31 at 13.19.36.png" alt="Coupling" style="width: 300px; display: block; margin: 10px auto;">
 
-![Alt text](<Screenshot 2023-07-31 at 13.19.36.png>)
-![Alt text](<Screenshot 2023-07-31 at 13.30.26.png>)
+<img src="Screenshot 2023-07-31 at 13.30.26.png" alt="Coupling" style="width: 300px; display: block; margin: 10px auto;">
+
  As seen in the picture the low cohesion example has unrelated methods such as sendEmail(). Ideally, that method should belong in a different class related to emails.
 
 Essentially, a highly cohesive module is clearly defined with a  focused purpose on a specific functionality without being burdened with unrelated tasks.
